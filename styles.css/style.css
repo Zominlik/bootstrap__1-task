@@ -1,0 +1,13 @@
+body {
+    font-family: serif;
+}
+
+ul {
+    list-style-type: none!important;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    border-radius: 7px;
+}
