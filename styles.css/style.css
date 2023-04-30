@@ -3,11 +3,43 @@ body {
 }
 
 ul {
-    list-style-type: none!important;
+    /* list-style-type: none!important; */
     margin: 0;
     padding: 0;
 }
 
 .hero {
     border-radius: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-text,p {
+    font-family: sans-serif;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+form {
+    background-color: transparent;
+    border-radius: 1px solid blue;
+}
+
+.form-control {
+   width: 25rem;
+}
+
+.triangle {
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: rotate(-45deg);
+}
+
+.especials {
+    border: 1px solid blue!important;
+    border-radius: 10%;
 }
